@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>管理页面</title>
+  <link rel="stylesheet" href="../src/lib/layui/css/layui.css">
+  <link rel="stylesheet" href="../src/style/admin/common.css">
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <div class="layui-logo">机关大楼管理系统</div>
+    <ul class="layui-nav layui-layout-left">
+      <li class="layui-nav-item"><a href="./index.html">办公楼宇</a></li>
+      <li class="layui-nav-item"><a href="./rearService.html">后勤服务</a></li>
+      <li class="layui-nav-item"><a href="">待扩展</a></li>
+      <li class="layui-nav-item">
+        <a href="javascript:;">待扩展系统</a>
+        <dl class="layui-nav-child">
+          <dd><a href="">待扩展</a></dd>
+          <dd><a href="">待扩展</a></dd>
+          <dd><a href="">待扩展</a></dd>
+        </dl>
+      </li>
+    </ul>
+    
+    <div class="layui-form component" style="width: 400px;">
+    	<div class="layui-inline" style="width: 38%;">
+        <select name="city" lay-verify="" id="filter_select">
+          <option value="username">人员名称</option>
+          <option value="usertelephone">电话</option>
+          <option value="ename">单位名称</option>
+          <option value="bname">大楼名称</option>
+        </select>
+      </div>
+      <div class="layui-form-select" style="display: inline-block; width: 60%;">
+      	<div class="layui-select-title">
+      		<input id="top_search_input" style="display: inline-block;width: 80%;cursor: text;" type="text" placeholder="输入搜索内容" value="" class="layui-input">
+      		<span id="top_search_btn" class="fly-search LAY_search" style="width: 28px;height: 30px;line-height: 30px;margin-left:-30px; margin-right: 0;cursor: pointer;"><i style="color: #fff;" class="layui-icon"></i></span>
+      	</div>
+      </div>
+    </div>
+    
+    
+    <ul class="layui-nav layui-layout-right">
+      <li class="layui-nav-item">
+        <a href="javascript:;">
+          <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+         admin
+        </a>
+        <dl class="layui-nav-child">
+          <dd><a href="">基本资料</a></dd>
+          <dd><a href="">安全设置</a></dd>
+        </dl>
+      </li>
+      <li class="layui-nav-item"><a href="/Building/admin/login.html">退出</a></li>
+    </ul>
+  </div>
+  
+ <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+      <ul class="layui-nav layui-nav-tree" lay-filter="test">
+<!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+  <li class="layui-nav-item layui-nav-itemed">
+    <a href="javascript:;">资产管理</a>
+    <dl class="layui-nav-child">
+      <dd><a href="javascript:;" id="building_manage">大楼管理</a></dd>
+      <dd><a href="javascript:;" id="room_manage">房间管理</a></dd>
+    </dl>
+  </li>
+  
+  <li class="layui-nav-item">
+    <a href="javascript:;">员工管理</a>
+    <dl class="layui-nav-child">
+      <dd><a href="javascript:;" id="user_manage">员工管理</a></dd>
+    </dl>
+  </li>
+  <li class="layui-nav-item">
+  	<a href="javascript:;">企业单位</a>
+  	 <dl class="layui-nav-child">
+      <dd><a href="javascript:;" id="enterprise_manage">单位管理</a></dd>
+      <dd><a href="javascript:;" id="position_manage">职位管理</a></dd>
+    </dl>
+  </li>
+  <li class="layui-nav-item">
+    <a href="javascript:;">管理员管理</a>
+    <dl class="layui-nav-child">
+      <dd><a href="javascript:;" id="admin_manage">管理员管理</a></dd>
+      <dd><a href="javascript:;" id="role_manage">角色管理</a></dd>
+      <dd><a href="javascript:;" id="permission_manage">权限管理</a></dd>
+    </dl>
+  </li>
+  
+  <li class="layui-nav-item"><a href="javascript:;" id="system_manage">系统信息</a></li>
+</ul>
+    </div>
+  </div>
+  
+  <div class="layui-body">
+    <!-- 内容主体区域 -->
+ 	 <div class="button-line-top">
+    	 <button id="add_btn" class="layui-btn"><i class="layui-icon"></i>添加</button>
+    </div>
+	<table id="main_table"  lay-filter="demo"></table>
+	<script type="text/html" id="barDemo">
+  		<a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
+  		<a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+  		<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+ 	</script>
+   </div>
+
+  <div class="layui-footer">
+    <!-- 底部固定区域 -->
+    Copyright © 机关事务局系统管理，建议使用IE7以上浏览器
+  </div>
+</div>
+<script src="../src/lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="../src/lib/layui/layui.js"></script>
+<script src="../main.js"></script>
+<script src="../src/js/admin/index.js"></script>
+
+</body>
+</html>

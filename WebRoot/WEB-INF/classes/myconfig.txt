@@ -1,0 +1,4 @@
+jdbcUrl = jdbc:mysql://localhost/taxdb?characterEncoding=utf8&serverTimezone=GMT%2B8
+user = root
+password = 123456
+devMode = true

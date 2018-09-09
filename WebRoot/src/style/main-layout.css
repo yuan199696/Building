@@ -1,0 +1,94 @@
+@charset "utf-8";
+----------------------------------------------------------------------------*/
+/*-------------------------- Common Style ----------------------------------
+*/
+a:link { text-decoration: none; color:#333; }
+a:visited { text-decoration: none; color:#333; }
+a:hover { text-decoration:underline; color:#c00;}
+a:active { text-decoration: none; color:#333; }
+.clearfloat { clear:both; height:0; font-size: 1px; line-height: 0px;}/* 清除浮动 */
+
+/*---------------------------- Form Css -----------------------------------
+*/
+.text, .password { width:250px; height:23px; line-height:23px; border:solid 1px #99bbe8; font-family:"微软雅黑","宋体", Verdana, Geneva, sans-serif;}
+.select { width:255px; height:25px; line-height:23px; border:solid 1px #99bbe8; font-family:"微软雅黑","宋体", Verdana, Geneva, sans-serif; color: #999;}
+.lable {height:25px; line-height:25px;}
+.btn { width:80px; height:30px; line-height:30px; border:solid 1px #99bbe8; color: #000; background-color:#e0ecff; cursor: pointer;}
+
+/*--------------------------Overall Layout Style --------------------------
+*/
+
+/* Form Style ----------------*/
+.main-form { border: 1px solid #99bbe8; padding:10px 5px; margin-bottom:10px;}/* 自适应宽度 */
+.main-form-w { padding: 5px; margin-bottom:10px; width:590px;}/* 定宽 */
+
+/* 一行两列 */
+.main-talbe-1c { width:100%; border-width:1; border-collapse:collapse; border-spacing:0;}
+.main-td1c-title { padding-right: 5px; width: 20%; height:40px; text-align: right;}
+.main-td1c-input { padding-left: 5px; text-align: left;}
+.main-talbe-1c th { height:50px; text-align: left;}
+
+/* 两行四列 */
+.main-talbe-2u { width:100%; border-width:1; border-collapse:collapse; border-spacing:0;}
+.main-td2u-title { padding-right:3px; width: 15%; height:40px; text-align: right;}
+.main-td2u-input { padding-left:3px; text-align: left;}
+.main-talbe-2u th { height:50px; text-align: center;}
+
+/* Table Style ----------------*/
+/* 详细表格 一 */
+.main-table-one { width:100%; color: #333333; border-width: 1px; border-color: #99bbe8; border-collapse: collapse;}
+.main-table-one td { border-width: 1px; padding:5px; border-style: solid; border-color: #99bbe8; }
+.main-table-onet { padding-right:5px; width: 20%; text-align: right; background-color: #e0ecff;}
+.main-table-onec {  padding: 5px; border-style: solid;}
+
+/* 详细表格 二 */
+.main-table-two { width:100%;color: #333333; border-width: 1px; border-color: #99bbe8; border-collapse: collapse;}
+.main-table-two th { border-width: 1px; padding:8px; border-style: solid; border-color: #99bbe8; background-color: #e0ecff;}
+.main-table-two td { border-width: 1px; padding:5px; border-style: solid; border-color: #99bbe8; background-color: #ffffff;}
+
+/* Search Style ----------------*/
+
+/* 查询一 */
+.conlist-search1 { margin:0 auto; padding:0 5px;}   
+.conlist-search1 ul{ float:left;  margin: 0; line-height:40px; display:block; list-style-type:none;} 
+.conlist-search1 ul li { float:left; padding:0; margin-right:25px; display:block;} 
+
+/* 查询二 */
+.conlist-search2 { margin:0 auto; padding:0 5px;}   
+.conlist-search2 ul { float:left; margin:5px 0; width:850px; line-height:40px; display:block; list-style-type:none;} 
+.conlist-search2 ul li { float:left; padding:0; margin-right:25px; display:block;} 
+
+/* 查询三 */
+.conlist-search3 { margin:0 auto; padding:0 5px;}   
+.conlist-search3 ul { float:left; margin:5px 0; width:850px; line-height:40px; display:block; list-style-type:none;} 
+.conlist-search3 ul li { float:left; padding:0; margin-right:25px; display:block;} 
+
+/* 查询四 */
+.conlist-search4 { margin:0 auto; padding:0 5px;}   
+.conlist-search4 ul {margin:5px 0; line-height:40px; display:block; list-style-type:none;}   
+.conlist-search4 ul hr {margin:5px 0; height:1px; border:0px;background-color:#D5D5D5;color:#D5D5D5;}   
+.conlist-search4 ul li{ float:left; margin-right:25px; display:block;} 
+.conlist-search4 ul li p { padding:0; margin-right:25px; font-weight:bold;} 
+
+.conlist-search4 dl{ margin:0; padding:0 25px;}   
+.conlist-search4 dl hr {margin:5px 0;height:1px;border:0px;background-color:#D5D5D5;color:#D5D5D5;}   
+.conlist-search4 dt{ margin:5px 0; line-height:25px; display:block;} 
+.conlist-search4 dl p { margin:0 auto; padding:0; font-weight:bold;} 
+.conlist-search4 dd{ float:left; margin-left:80px; line-height:35px; display:block;} 
+
+/* 查询五 */
+.conlist-search5 { width:100%; }   
+.conlist-search5 dl{ margin:0 auto; padding:0 25px;}   
+.conlist-search5 dt{ margin-bottom:5px; line-height:25px; display:block;} 
+.conlist-search5 dt div { float:left; padding:0; margin-right:25px;} 
+.conlist-search5-btn { font-weight:bold; height:45px; } 
+.conlist-search5-title { font-weight:bold;} 
+
+/* dialog Style ----------------*/
+/* 与表单结合 */
+
+
+
+
+
+

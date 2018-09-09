@@ -1,0 +1,36 @@
+.layui-input-block .input-block-label{
+	line-height: 36px;
+}
+
+.button-line-top {
+	margin: 20px 8px 0;
+}
+
+.no-data {
+	background: url(../images/nodata.jpg) center center no-repeat;
+	width: 100%;
+    height: auto;
+    min-height: 400px;
+    text-align: center;
+    font-size: 3em;
+    color: #d2d2d2;
+    position: relative;
+}
+
+.no-data .nodata-text {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
+.user-avatar-container {
+	position: absolute;
+	width: 300px;
+	height: 360px;
+	left: 50%;
+	top: 60px;
+	text-align: center;
+}
+
+.layui-form-item {
+	background-color: #fcfcfc;
+}

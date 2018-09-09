@@ -1,0 +1,21 @@
+.top-btn {
+	padding-left: 25px;
+	margin: 10px;
+}
+
+.top-operation {
+	background: #F0F0F0;
+}
+
+.required-label-flag {
+	color: red;
+}
+
+.include-pos-container {
+    padding: 10px 5px;
+    border: 1px #ccc solid;
+}
+
+.layui-form-checkbox span {
+	min-width: 30px;
+}

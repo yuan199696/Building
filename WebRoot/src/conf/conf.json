@@ -1,0 +1,78 @@
+{
+
+	"en_US": {
+		"building": [
+			{
+				"id": "building_id",
+				"name": "大楼编号"
+			},
+			{
+				"id": "building_name",
+				"name": "大楼名称"
+			},
+			{
+				"id": "building_position",
+				"name": "大楼位置"
+			},
+			{
+				"id": "building_direction",
+				"name": "大楼朝向"
+			},
+			{
+				"id": "building_date",
+				"name": "建楼时间"
+			},
+			{
+				"id": "floor",
+				"name": "楼层"
+			},
+			{
+				"id": "description",
+				"name": "描述"
+			},
+			{
+				"id": "comment",
+				"name": "备注"
+			}],
+		"enterprise": [],
+		"staff": []
+	},
+	"zh_CN": {
+		"building": [
+			{
+				"id": "building_id",
+				"name": "大楼编号"
+			},
+			{
+				"id": "building_name",
+				"name": "大楼名称"
+			},
+			{
+				"id": "building_position",
+				"name": "大楼位置"
+			},
+			{
+				"id": "building_direction",
+				"name": "大楼朝向"
+			},
+			{
+				"id": "building_date",
+				"name": "建楼时间"
+			},
+			{
+				"id": "floor",
+				"name": "楼层"
+			},
+			{
+				"id": "description",
+				"name": "描述"
+			},
+			{
+				"id": "comment",
+				"name": "备注"
+			}],
+		"enterprise": [],
+		"staff": []
+	}
+	
+}
